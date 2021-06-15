@@ -7,18 +7,48 @@
         <title>Who's That Pokemon | Flash Card Game</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-<h1>Who's That Pokemon - Can You Guess?</h1>
 
 
+<script src= flashcards.js></script>
+
+<div class="container">
+
+<div class="row">
+    <h1>Who's That Pokemon - Can You Guess?</h1>
+</div>
+
+<div class="row">
+<div class="col">
+<form> 
+<label for="front">Front of Card</label>
+<br>
+<input type="file" name="front" id="front" accept="image/*"  rows="3"/>
+<br>
+<label for="back">Back of Card</label>
+<textarea id="back" class="form-control" rows="3"></textarea>
+<button type="button" class="btn btn-success btn-lg btn-block mt-3" >Save Changes</button>
+</form>
 
 
+</div>
+<div class="col">
+
+<h2> Make a Flashcard</h2>
+<p>Let's make some pokemon themed flashcard to help us remember certain kinds of pokemon! the front of the card should be a picture of a pokemon and the back has its name!</p>
+</div>
+
+
+</div>
+
+
+</div>
 
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
