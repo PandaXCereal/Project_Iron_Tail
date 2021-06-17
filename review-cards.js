@@ -25,7 +25,7 @@ function displayNextCard(){
     document.getElementById('frontCard').style.display = "block";
     let front = cards[currentCard].front;
     let back = cards[currentCard].back;
-    document.getElementById('frontCard').innerHTML = front;
+    document.getElementById('frontCard').src = front;
     document.getElementById('backCard').innerHTML = back;
     document.getElementById('backCard').style.display = "none";
     document.getElementById('cardNum').innerHTML = currentCard + 1;

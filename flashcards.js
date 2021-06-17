@@ -1,7 +1,7 @@
 document.getElementById('btnSave').addEventListener('click', saveCard);
 let cards = new Array();
 function saveCard(){
-    let frontContent=document.querySelector('#front').value;
+    let frontContent=document.querySelector('#front').files[0].images.name;
     let backContent = document.getElementById('back').value;
 
     let card  = {front: frontContent, back:backContent};
