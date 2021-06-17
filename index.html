@@ -16,7 +16,7 @@
         <![endif]-->
 
 
-<script src= flashcards.js></script>
+
 
 <div class="container">
 
@@ -33,7 +33,7 @@
 <br>
 <label for="back">Back of Card</label>
 <textarea id="back" class="form-control" rows="3"></textarea>
-<button type="button" class="btn btn-success btn-lg btn-block mt-3" >Save Changes</button>
+<button type="button" class="btn btn-success btn-lg btn-block mt-3" id="btnSave" >Save Changes</button>
 </form>
 
 
@@ -42,8 +42,8 @@
 
 <h2> Make a Flashcard</h2>
 <p class="instructions">Let's make some pokemon themed flashcards to help us remember certain kinds of pokemon! the front of the card should be a picture of a pokemon and the back has its name!</p>
-
-
+<p># OF CARDS:</p><b><output id="numCards"></output>
+</b>
 </div>
 
 
@@ -51,11 +51,12 @@
 
 
 </div>
-
+<script src="localForage.min.js"></script>
+<script src= flashcards.js></script>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="" async defer></script>
+    
     </body>
 </html>
