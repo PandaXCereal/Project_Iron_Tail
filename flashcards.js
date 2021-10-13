@@ -29,7 +29,7 @@ storeCards = () =>{
     {
         return localforage.getItem('key');
 
-    }).then(function (value) {
+    }).then(function (_value) {
 
 alert("Saved!");
 }).catch(function (err){
